@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+a {
+   @apply text-theme-green;
+
+   &:hover {
+      @apply text-theme-darkGreen;
+      @apply underline;
+   }
+}
