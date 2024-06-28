@@ -6,11 +6,13 @@ export default {
     colors: {
       theme: {
         green: '#5C885C',
-        gray: '#6b7280'
+        gray: '#6b7280',
+        white: '#fffaf0'
       },
       spacing: {
         navItem: '0.425rem'
-      }
+      },
+
     },
   },
   plugins: [],
