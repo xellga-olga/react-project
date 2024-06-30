@@ -1,9 +1,10 @@
 import { FC } from "react";
 import { Link } from "react-router-dom";
+import { FavoriteButton } from "../favorite-button/favorite-button";
 
 interface ArticleProps {}
 
-export const Article: FC<ArticleProps> = ({}) => {
+export const Article: FC<ArticleProps> = () => {
   return (
     <article>
       <div className="border-t border-black/10 py-6">
@@ -21,6 +22,8 @@ export const Article: FC<ArticleProps> = ({}) => {
             </Link>
             <span className="text-theme-lightGray text-date">28 june, 2024</span>
           </div>
+
+          <FavoriteButton />
         </div>
       </div>
     </article>

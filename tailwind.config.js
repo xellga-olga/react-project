@@ -19,6 +19,9 @@ export default {
     fontSize: {
       date: '0.8rem',
     },
+    borderRadius: {
+      buttonSm: '0.2rem',
+    }
   },
   plugins: [],
 };
