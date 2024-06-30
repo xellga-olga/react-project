@@ -8,7 +8,7 @@ export const Header: FC<HeaderProps> = () => {
       <header>
          <nav className="py-2 px-4">
             <div className="max-w-screen-xl mx-auto flex justify-between items-center">
-               <Link className="text-2xl mr-8 text-theme-green no-underline hover:no-underline" to='/'>BrainWave</Link>
+               <Link className="text-2xl mr-8 text-theme-green no-underline hover:no-underline" to='/'>Brainstorm Hub</Link>
                <ul className="pl-0 mb-0 list-none flex">
                   <li>
                      <NavLink 
