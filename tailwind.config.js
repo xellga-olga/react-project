@@ -13,6 +13,7 @@ export default {
         black: "#373a3c",
         darkenGray: '#999',
         tag: '#aaa',
+        globalFeed: '#ffffff'
       },
       spacing: {
         navItem: "0.425rem",
